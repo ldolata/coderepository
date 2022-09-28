@@ -19,6 +19,12 @@ Additionally application allows customizing username and password for web applic
 export APP_USERNAME=<new username>
 export APP_PASSWORD=<new password>
 ```
+Application support also caching. The cache setting can be customise.
+```
+export CACHE_TYPE=<cache type: default(using coffaine) and redis (using redis cache}>
+export REDIS_HOST=<redis cache host>
+export REDIS_PORT=<redis cache port>
+```
 
 ### Application Build And Run
 Application can be build and run:
